@@ -920,3 +920,31 @@ label{
         max-width: 100%;
     }
 }
+
+@media (max-width: 355px) {
+    .Btn {
+        padding: 8px 6px; 
+        font-size: 10px; 
+        max-width: 70%;
+    }
+
+    #token-info h2, #community h2, #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #tokenomics h1 {
+        font-size: 1.6rem; !important
+    }
+
+    .container button, #liquidity-pool, .solscan, .download-button {
+        width: 300px;
+    }
+
+    .hero-text {
+        padding: 0px;
+    }
+
+    .example2 .icon-content {
+        padding: .1rem 0.5rem;
+    }
+}
