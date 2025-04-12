@@ -18,7 +18,7 @@ body {
     font-family: 'Michroma', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     color: white;
     line-height: 1.8;
   
@@ -114,7 +114,7 @@ header button:hover {
 /*Hero styling*/
     .hero {
         text-align: center;
-        padding: 50px 20px;
+        padding: 50px 20px; 
         background-color: white;
         color: black;
         animation: slideInUp 2s ease;
@@ -418,7 +418,7 @@ header button:hover {
     margin-bottom: 20px;
 }
  
-#liquidity-pool, .solscan, .download-button {
+#liquidity-pool, .solscan, .download-button, #token-address {
     width: 330px;
     height: 56px;
     overflow: hidden;
@@ -796,7 +796,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    /* removed this due to overflow behavior width: 100%; */
 }
 
 .hero-text {
@@ -827,7 +827,7 @@ nav a {
 .roadmap, .tokenomics, .vision {
     padding: 50px 30px;
     text-align: center;
-    width: 100%;
+    /* removed this due to overflow behavior width: 100%; */
 
 }
 
@@ -890,7 +890,7 @@ label{
     margin: auto 10px
     
 }#token-info, #community, #contact, footer{
-    width: 100%;
+    /* removed this due to overflow behavior width: 100%; */
     max-width: 100%;
     padding: 10px 30px ;
 }
@@ -904,7 +904,7 @@ label{
     padding: 12px;
 }
 .tokenomics{
-    width: 100%;
+    /* removed this due to overflow behavior width: 100%; */
     max-width: 100%;
 }
 .tokenomics-chart{
@@ -913,15 +913,37 @@ label{
 }
 }
 
-
-
-
-
-
 @media (max-width: 480px) {
     .Btn {
         padding: 10px 8px; 
         font-size: 12px; 
         max-width: 100%;
+    }
+}
+
+@media (max-width: 355px) {
+
+    #token-info h2, #community h2, #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #tokenomics h1 {
+        font-size: 1.6rem; !important
+    }
+
+    .container button, #liquidity-pool, .solscan, .download-button, #token-address {
+        width: 200px; /* changed from 300px to 200px */
+    }
+
+    .container a {
+        font-size: 70%;
+    }
+
+    .hero-text {
+        padding: 0px;
+    }
+
+    .example-2 .icon-content {
+        padding: .1rem 0.5rem;
     }
 }
