@@ -418,7 +418,7 @@ header button:hover {
     margin-bottom: 20px;
 }
  
-#liquidity-pool, .solscan, .download-button {
+#liquidity-pool, .solscan, .download-button, #token-address {
     width: 330px;
     height: 56px;
     overflow: hidden;
@@ -922,11 +922,6 @@ label{
 }
 
 @media (max-width: 355px) {
-    .Btn {
-        padding: 8px 6px; 
-        font-size: 10px; 
-        max-width: 70%;
-    }
 
     #token-info h2, #community h2, #contact h2 {
         font-size: 1.5rem;
@@ -936,15 +931,19 @@ label{
         font-size: 1.6rem; !important
     }
 
-    .container button, #liquidity-pool, .solscan, .download-button {
-        width: 300px;
+    .container button, #liquidity-pool, .solscan, .download-button, #token-address {
+        width: 200px; /* changed from 300px to 200px */
+    }
+
+    .container a {
+        font-size: 70%;
     }
 
     .hero-text {
         padding: 0px;
     }
 
-    .example2 .icon-content {
+    .example-2 .icon-content {
         padding: .1rem 0.5rem;
     }
 }
