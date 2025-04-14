@@ -35,7 +35,7 @@
 </head>
 <body>
 <!--Header Section-->
-<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px">
     <div style="display: flex; align-items: center;">
         <img src="Images/LUCR-Logo.png" alt="LUCR-Logo" style="height: 85px; margin-right: 20px;">
         <h1 class="header-text">LUCRATIVE ($LUCR)</h1>
@@ -127,18 +127,29 @@
         <p><strong>Total Supply:</strong> 2,000,000,000 LUCR</p>
         <p><strong>Token Address:</strong> 
          <div class="token-info">
-        <div class="container">
-            <button id="token-address" onclick="copyToken()">
-                <span id="token" class="new" style="color: black;">Gd5r2jvNSXjz5na1n4cRkuTPet2TMELmfcJunVS95D6j</span>
-                <span id="svgIcon">
-                    <svg fill="black" viewBox="0 0 384 512" height="1.3em" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M280 64h40c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64h40 9.6C121 27.5 153.3 0 192 0s71 27.5 78.4 64H280zM64 112c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V128c0-8.8-7.2-16-16-16H304v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112H64zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
-                    </svg>
-                </span>
-                <span class="tooltip" id="tooltip">Copied!</span>
-            </button>
-        </div>     
-        <p><strong>Liquidity Pool:</strong> <br>
+
+        <button class="Btn" onclick="copyToken()">
+            <span id="token" class="new" style="color: black;">5zYnyz8CMKHL6Rd9ftMCS98cL9WBx7UP8UnHK7fypump</span>
+            <span id="svgIcon">
+                <svg fill="black" viewBox="0 0 384 512" height="1.3em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M280 64h40c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64h40 9.6C121 27.5 153.3 0 192 0s71 27.5 78.4 64H280zM64 112c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V128c0-8.8-7.2-16-16-16H304v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112H64zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+                </svg>
+            </span>
+            <span class="tooltip" id="tooltip">Copied!</span>
+        </button>     
+        <br>
+<button class="Btn" onclick="copyToken()">
+            <span id="token" class="new" style="color: black;">TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA</span>
+            <span id="svgIcon">
+                <svg fill="black" viewBox="0 0 384 512" height="1.3em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M280 64h40c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64h40 9.6C121 27.5 153.3 0 192 0s71 27.5 78.4 64H280zM64 112c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V128c0-8.8-7.2-16-16-16H304v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112H64zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+                </svg>
+            </span>
+            <span class="tooltip" id="tooltip">Copied!</span>
+        </button>     
+   
+
+        <p><strong>Liquidity Pools:</strong> <br>
 <div class="container">
 
   <button id="liquidity-pool">
@@ -176,8 +187,18 @@
   <button class="solscan">
     <div class="text2">
       <p class="new">
-        <a href="https://solscan.io/token/Gd5r2jvNSXjz5na1n4cRkuTPet2TMELmfcJunVS95D6j" target="_blank" rel="noopener noreferrer"  style="text-decoration: none; color: black;  font-family: michroma;">
+        <a href="https://solscan.io/token/5zYnyz8CMKHL6Rd9ftMCS98cL9WBx7UP8UnHK7fypump" target="_blank" rel="noopener noreferrer"  style="text-decoration: none; color: black;  font-family: michroma;">
           View on Solscan
+        </a>
+      </p>
+    </div>
+  </button>
+  <br>
+  <button class="tronscan">
+    <div class="text2">
+      <p class="new">
+        <a href="https://tronscan.org/#/searchResult/TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA?type=tokens&contract" target="_blank" rel="noopener noreferrer"  style="text-decoration: none; color: black;  font-family: michroma;">
+          View on Tronscan
         </a>
       </p>
     </div>
