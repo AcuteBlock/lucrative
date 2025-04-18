@@ -27,7 +27,7 @@ body {
 header {
     background-color: white;
     color: black;
-    padding: 15px 2%;
+    padding: 20px;
     width: 100%;
     text-align: center;
     border-bottom: 2px solid #444;
@@ -39,6 +39,10 @@ header {
     box-sizing: border-box;
     position: fixed;
     z-index: 1000;
+}
+
+.header-logo {
+    margin-right: 20px;
 }
 .header-text{
     font-size: 1rem;
@@ -766,7 +770,7 @@ body {
 header {
     background-color: white;
     color: black;
-    padding: 10px 30px ;
+    padding: 10px;
     text-align: center;
     border-bottom: 2px solid #444;
     animation: fadeIn 2s ease;
@@ -775,6 +779,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    gap: 10px;
 }
 .header-text{
     text-align: center;
@@ -1000,6 +1005,10 @@ label{
 }
 
 @media (max-width: 355px) {
+
+    .header-logo {
+        margin-right: 5px;
+    }
 
     #token-info h2, #community h2, #contact h2 {
         font-size: 1.5rem;
