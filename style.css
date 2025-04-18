@@ -27,7 +27,7 @@ body {
 header {
     background-color: white;
     color: black;
-    padding: 15px 2%;
+    padding: 20px;
     width: 100%;
     text-align: center;
     border-bottom: 2px solid #444;
@@ -39,6 +39,10 @@ header {
     box-sizing: border-box;
     position: fixed;
     z-index: 1000;
+}
+
+.header-logo {
+    margin-right: 20px;
 }
 .header-text{
     font-size: 1rem;
@@ -423,7 +427,7 @@ header button:hover {
     margin-bottom: 20px;
 }
  
-#liquidity-pool, .solscan, .tronscan, .download-button {
+#liquidity-pool, .solscan, .tronscan, .download-button, #token-address {
     width: 330px;
     height: 56px;
     overflow: hidden;
@@ -766,7 +770,7 @@ body {
 header {
     background-color: white;
     color: black;
-    padding: 10px 30px ;
+    padding: 10px;
     text-align: center;
     border-bottom: 2px solid #444;
     animation: fadeIn 2s ease;
@@ -774,8 +778,8 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 115%;
-    max-width: 115%;
+    width: 100%;
+    gap: 10px;
 }
 .header-text{
     text-align: center;
@@ -878,7 +882,6 @@ header button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .hero-text {
@@ -909,13 +912,12 @@ header button{
 .roadmap, .tokenomics, .vision {
     padding: 50px 30px;
     text-align: center;
-    width: 100%;
-
 }
 
 .roadmap-text{
     width: 100%;
 padding: 15px;
+
 } .tokenomics-info {
     width: 100%;
 
@@ -972,10 +974,10 @@ label{
     margin: auto 10px
     
 }#token-info, #community, #contact, footer{
-    width: 100%;
     max-width: 100%;
     padding: 10px 30px ;
 }
+
 #token{
     display: flex;
     justify-content: space-between;
@@ -986,7 +988,6 @@ label{
     padding: 12px;
 }
 .tokenomics{
-    width: 100%;
     max-width: 100%;
 }
 .tokenomics-chart{
@@ -1004,12 +1005,35 @@ label{
 }
 
 @media (max-width: 355px) {
-    header {
-        padding: 10px;
+
+    .header-logo {
+        margin-right: 5px;
     }
+
     #token-info h2, #community h2, #contact h2 {
         font-size: 1.5rem;
     }
+
+    #tokenomics h1 {
+        font-size: 1.6rem; !important
+    }
+
+    .container button, #liquidity-pool, .solscan, .download-button, #token-address {
+        width: 200px; /* changed from 300px to 200px */
+    }
+
+    .container a {
+        font-size: 70%;
+    }
+
+    .hero-text {
+        padding: 0px;
+    }
+
+    .example-2 .icon-content {
+        padding: .1rem 0.5rem;
+    }
+}
 
 @media (max-width: 480px) {
     .Btn {
