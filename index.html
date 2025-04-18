@@ -35,20 +35,36 @@
 </head>
 <body>
 <!--Header Section-->
-<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
-    <div style="display: flex; align-items: center;">
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 20px; height: 120px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
         <img src="Images/LUCR-Logo.png" alt="LUCR-Logo" style="height: 85px; margin-right: 20px;">
         <h1 class="header-text">LUCRATIVE ($LUCR)</h1>
+        <div class="burger-menu" id="burger" aria-label="Menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav id="large-screen-nav" class="nav-design">
+            <a href="#tokenomics" aria-label="Tokenomics">Tokenomics</a>
+            <a href="#roadmap" aria-label="Roadmap">Roadmap</a>
+            <a href="#community" aria-label="Community">Community</a>
+            <a href="#contact" aria-label="Contact">Contact</a>
+        </nav>
+        <button aria-label="Learn More" onclick="window.location.href='#roadmap'">Learn More</button>
     </div>
-    <nav>
-        <a href="#tokenomics" aria-label="Tokenomics">Tokenomics</a>
-        <a href="#roadmap" aria-label="Roadmap">Roadmap</a>
-        <a href="#community" aria-label="Community">Community</a>
-        <a href="#contact" aria-label="Contact">Contact</a>
-    </nav>
-    <button aria-label="Learn More" onclick="window.location.href='#roadmap'">Learn More</button>
 </header>
-
+<!--End of Header Section-->
+<!--Mobile Menu Links-->
+<div class="modal-wrapper">
+    <div id="small-nav-links">
+        <ul>
+            <li><a href="#tokenomics" aria-label="Tokenomics">Tokenomics</a></li>
+            <li><a href="#roadmap" aria-label="Roadmap">Roadmap</a></li>
+            <li><a href="#community" aria-label="Community">Community</a></li>
+            <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
    <!--Hero Section-->
     <section class="hero">
         <div class="hero-text">
@@ -129,7 +145,16 @@
          <div class="token-info">
         <div class="container">
             <button id="token-address" onclick="copyToken()">
-                <span id="token" class="new" style="color: black;">Gd5r2jvNSXjz5na1n4cRkuTPet2TMELmfcJunVS95D6j</span>
+                <span id="token" class="new" style="color: black;">5zYnyz8CMKHL6Rd9ftMCS98cL9WBx7UP8UnHK7fypump</span>
+                <span id="svgIcon">
+                    <svg fill="black" viewBox="0 0 384 512" height="1.3em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M280 64h40c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64h40 9.6C121 27.5 153.3 0 192 0s71 27.5 78.4 64H280zM64 112c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V128c0-8.8-7.2-16-16-16H304v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112H64zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+                    </svg>
+                </span>
+                <span class="tooltip" id="tooltip">Copied!</span>
+            </button>
+            <button id="token-address" onclick="copyToken()">
+                <span id="token" class="new" style="color: black;">TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA</span>
                 <span id="svgIcon">
                     <svg fill="black" viewBox="0 0 384 512" height="1.3em" xmlns="http://www.w3.org/2000/svg">
                         <path d="M280 64h40c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64h40 9.6C121 27.5 153.3 0 192 0s71 27.5 78.4 64H280zM64 112c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V128c0-8.8-7.2-16-16-16H304v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112H64zm128-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>

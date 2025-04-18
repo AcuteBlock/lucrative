@@ -85,3 +85,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }).catch(err => console.error("Failed to copy:", err));
     });
 });
+
+    // Burger Menu for Mobile
+    // script.js
+        const burger = document.getElementById('burger');
+        const nav = document.getElementById('small-nav-links');
+        const modal = document.getElementsByClassName('modal-wrapper')[0];
+
+        burger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+        modal.classList.toggle('active');
+        });
+

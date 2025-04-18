@@ -27,7 +27,7 @@ body {
 header {
     background-color: white;
     color: black;
-    padding: 15px 5%;
+    padding: 15px 2%;
     width: 100%;
     text-align: center;
     border-bottom: 2px solid #444;
@@ -37,6 +37,8 @@ header {
     justify-content: space-between; 
     flex-wrap: wrap; 
     box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
 }
 .header-text{
     font-size: 1rem;
@@ -49,7 +51,7 @@ header {
     transform: translateY(0);
 }
 /*Navbar styling*/
-nav {
+.nav-design {
     display: flex;
     gap: 20px; 
     background-color: black;
@@ -59,11 +61,11 @@ nav {
     transform: translateY(50px);
     transition: opacity 0.7s ease-out, transform 0.7s ease-out;
 }
-nav.visible{
+.nav-design.visible{
     opacity: 1;
     transform: translateY(0);
 }
-nav a {
+.nav-design a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -72,7 +74,7 @@ nav a {
     transition: color 0.3s ease-in-out;
 }
 
-nav a::after {
+.nav-design a::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -83,17 +85,15 @@ nav a::after {
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 
-nav a:hover {
+.nav-design a:hover {
     color: white;
 }
 
-nav a:hover::after {
+.nav-design a:hover::after {
     width: 50%;
     left: 0;
 }
 header button{
-    
-
     background-color: white;
     color: black;
     padding: 10px 20px;
@@ -124,8 +124,9 @@ header button:hover {
         flex-wrap: wrap; 
         gap: 20px; 
         max-width: 100%;
-          
-        
+        z-index: 1;
+        position: relative;
+        padding-top: 120px; /* Added padding to avoid overlap with header */
     }
     
     .hero-text {
@@ -318,6 +319,10 @@ header button:hover {
 }
 
 @media (min-width: 768px) {
+    /* Mobile screen nav menu display none for devices upto 768 px*/
+    #small-nav-links, .burger-menu {
+        display: none;
+    }
     .roadmap {
         flex-direction: row;
         align-items: center; 
@@ -777,11 +782,87 @@ header {
 header button{
     display: none;
 }
-nav {
+.modal-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-top: 120px;
+}
+
+.modal-wrapper.active {
+    display: flex;
+}
+
+#small-nav-links {
+    display: none;
+    background-color: white;
+    position: fixed;
+    flex-direction: column;
+    color: white;
+    width: 190px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 100;
+    right: 0;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+#small-nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+#small-nav-links ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#small-nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#small-nav-links.active {
+    display: flex;
+}
+
+.burger-menu {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21px;
+    cursor: pointer;
+}
+
+.burger-menu .line {
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+#large-screen-nav {
     display:none;
 }
 
-nav a {
+.nav-design a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -790,7 +871,7 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 10px 30px ;
+    padding: 120px 30px ;
     background-color: white;
     color: black;
     display: flex;
@@ -922,7 +1003,9 @@ label{
 }
 
 @media (max-width: 355px) {
-
+    header {
+        padding: 10px;
+    }
     #token-info h2, #community h2, #contact h2 {
         font-size: 1.5rem;
     }
