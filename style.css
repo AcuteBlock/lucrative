@@ -426,7 +426,23 @@ header button:hover {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
- 
+.tokenomics-legend {
+    color: #4f4f4f;
+    font-family: 'Michroma', sans-serif;
+    font-size: 14px;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.tokenomics-legend span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #505050;
+    margin-right: 8px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
 #liquidity-pool, .solscan, .tronscan, .download-button, #token-address {
     width: 330px;
     height: 56px;

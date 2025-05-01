@@ -46,36 +46,49 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    //tokenomics chart script
-    const chartElement = document.getElementById("tokenomicsChart");
-    if (chartElement) {
-        const ctx = chartElement.getContext("2d");
-        new Chart(ctx, {
-            type: "pie",
-            data: {
-                labels: ["Development Team", "Airdrops", "Marketing", "Liquidity Pool", "Ecosystem Growth", "Public Sale"],
-                datasets: [
-                    {
-                        data: [10, 2.5, 2.5, 25, 25, 35],
-                        backgroundColor: ["#000000", "#FFFFFF", "#D3D3D3", "#A9A9A9", "#808080", "#505050"],
-                        borderColor: ["#000000", "#000000", "#000000", "#000000", "#000000", "#000000"],
-                        borderWidth: 1
+   //tokenomics chart script
+const chartElement = document.getElementById("tokenomicsChart");
+if (chartElement) {
+    const ctx = chartElement.getContext("2d");
+    new Chart(ctx, {
+        type: "pie",
+        data: {
+            labels: ["Open Market Circulation"],
+            datasets: [
+                {
+                    data: [100],
+                    backgroundColor: ["#505050"], // Updated to match original grey theme
+                    borderColor: ["#111111"],
+                    borderWidth: 1
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: "bottom",
+                    labels: {
+                        color: "#FFFFFF", // White font for dark background
+                        font: {
+                            family: "Michroma",
+                            size: 14
+                        }
                     }
-                ]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: "bottom",
-                        labels: {
-                            color: "#000"
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return '100% Open Market Circulation';
                         }
                     }
                 }
             }
-        });
-    }
+        }
+    });
+}
+
+
 
     // Copy Token Functionality
     document.getElementById("svgIcon").addEventListener("click", () => {
