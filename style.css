@@ -327,6 +327,18 @@ header button:hover {
     #small-nav-links, .burger-menu {
         display: none;
     }
+
+    /* Adding top and bottom margins for this sections to make it less smashed */
+    
+    .roadmap {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .tokenomics-info-first-paragraph {
+        line-height: 1.5;
+    }
+
     .roadmap {
         flex-direction: row;
         align-items: center; 
@@ -386,8 +398,8 @@ header button:hover {
     justify-content: center;
     align-items: center;
     flex: 1; 
-    max-width: 100%;
-    width: 60%;
+    max-width: 50%;
+    width: 40%;
     margin-top: 5rem;
     padding: 2rem;
     opacity: 0;
