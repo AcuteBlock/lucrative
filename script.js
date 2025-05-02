@@ -56,6 +56,7 @@ if (chartElement) {
             labels: ["Open Market Circulation"],
             datasets: [
                 {
+                    label: "online tutorials subjects",
                     data: [100],
                     backgroundColor: ["#505050"], // Updated to match original grey theme
                     borderColor: ["#111111"],
@@ -69,11 +70,12 @@ if (chartElement) {
                 legend: {
                     position: "bottom",
                     labels: {
-                        color: "#FFFFFF", // White font for dark background
+                        color: "#505050", // White font for dark background
                         font: {
                             family: "Michroma",
                             size: 14
-                        }
+                        },
+                        padding: 20,
                     }
                 },
                 tooltip: {
