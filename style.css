@@ -473,6 +473,24 @@ header button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px; 
 }
+#staking {
+    width: 330px;
+    height: 56px;
+    overflow: hidden;
+    border: none;
+    color: black;
+    background: none;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
 
 
 .container {
@@ -532,8 +550,6 @@ text .new{
     width: 1.3em;
     transition: fill 0.3s;
 }
-
-
 
 
 .tooltip {
@@ -659,6 +675,11 @@ ul {
     background-color: #ff0000;
   }
   
+  /* GitHub styling */
+  .example-2 .icon-content a[data-social="github"] .filled,
+  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #000000; /* GitHub black */
+}
 
   /*Contact styling*/
 .contact {

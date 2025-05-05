@@ -70,7 +70,7 @@ if (chartElement) {
                 legend: {
                     position: "bottom",
                     labels: {
-                        color: "#505050", // White font for dark background
+                        color: "#505050", // Match the pie chart segment color
                         font: {
                             family: "Michroma",
                             size: 14

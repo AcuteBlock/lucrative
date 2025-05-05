@@ -18,7 +18,18 @@ Launched by **AcuteBlock LLC**, $LUCR is a meme-born, utility-backed cryptocurre
 - 🌐 **Multichain:** Live on Solana (Pump.fun) & Tron (SunPump.meme)
 - 🧾 **Fixed Supply:** 2,000,000,000 LUCR
 - 💬 **Community-driven growth through organic engagement**
-- 🛠️ **Whitepaper V2, staking dev, and Promethean R&D in motion**
+- ⚙️ **Solana Staking now live via Smithii.io**
+- 🛠️ **Whitepaper V2, UI v2.1.0 update, and continued R&D underway**
+
+---
+
+## 🆕 What's New in v2.1.0
+
+- 🎯 **Added LUCR Staking & Staking Navigation Button** (Smithii.io integration)
+- 💎 **New GitHub navigation & community link + GitHub logo**
+- 🎨 **Refreshed layout and color animations**
+- 🧪 **UI fixes for tokenomics chart label display**
+- ✅ **Fully responsive layout confirmed across devices**
 
 ---
 
@@ -33,6 +44,12 @@ Launched by **AcuteBlock LLC**, $LUCR is a meme-born, utility-backed cryptocurre
 - **Tron (SunPump.meme):**  
   [https://sunpump.meme/token/TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA](https://sunpump.meme/token/TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA)
 
+- **Solana Staking Portal (Smithii.io):**  
+  [https://stake.smithii.io/lucr](https://stake.smithii.io/lucr)
+
+- **GitHub Repo:**  
+  [https://github.com/AcuteBlock/lucrative](https://github.com/AcuteBlock/lucrative)
+
 ---
 
 ## 📁 Repository Contents
@@ -43,24 +60,24 @@ This repo contains all core website assets:
 - `style.css` – Custom styling for the landing page
 - `script.js` – JavaScript for interactive elements
 - `README.md` – Project overview and documentation
-- `LUCRATIVE_ROADMAP_2025.png` – Current roadmap image
-- `Images/` – Folder for additional graphic assets
-
-These assets are actively used on both GitHub Pages and Hostinger-hosted site.
+- `roadmap.jpg` – Current roadmap image
+- `Images/` – Folder for logos and visuals
 
 ---
 
 ## 🧭 Roadmap
 
-![Lucrative Roadmap](./LUCRATIVE_ROADMAP_2025.png)
+![Lucrative Roadmap](./roadmap.jpg)
 
 ---
 
 ## 🤝 Join the Community
 
 - **Telegram:** [https://t.me/+rg0a86wCEjgzZjQx](https://t.me/+rg0a86wCEjgzZjQx)
-- **X / Twitter:**
-  - AcuteBlock: [https://x.com/AcuteBlockLLC](https://x.com/AcuteBlockLLC)
+- **X / Twitter:** [https://x.com/AcuteBlockLLC](https://x.com/AcuteBlockLLC)
+- **Instagram:** [https://www.instagram.com/acuteblock](https://www.instagram.com/acuteblock)
+- **YouTube:** [https://www.youtube.com/@AcuteBlock](https://www.youtube.com/@AcuteBlock)
+- **GitHub:** [https://github.com/AcuteBlock/lucrative](https://github.com/AcuteBlock/lucrative)
 
 ---
 
