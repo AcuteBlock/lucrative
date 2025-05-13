@@ -798,6 +798,37 @@ opacity: 1;
 transform: translateY(0);
 }
 
+/* SNS Badge Styling */
+footer a.sns-badge {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer a.sns-badge img {
+    height: 24px;
+    width: auto;
+}
+
+footer a.sns-badge span {
+    font-family: 'Michroma', sans-serif;
+    color: #ffffff;
+    margin-left: 8px;
+    font-size: 0.95rem;
+    word-break: break-word;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    footer a.sns-badge span {
+        font-size: 0.85rem;
+    }
+
+    footer a.sns-badge img {
+        height: 20px;
+    }
+}
+
 /*Media queries styling*/
 @media (max-width: 768px) {
 
