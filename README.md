@@ -1,6 +1,9 @@
 # Lucrative ($LUCR)
 
-Welcome to the official repository for **Lucrative ($LUCR)** — a 100% fair launch, multichain meme token with a focus on transparency, community, and utility.
+Welcome to the official repository for **Lucrative ($LUCR)** — **Solana’s First Luxury Coin.**  
+Fair launch, fixed supply, and community-driven growth with a focus on precision, scarcity, and exclusivity.
+
+---
 
 ## 🌐 Live Website
 The official $LUCR landing page is hosted here:
@@ -12,40 +15,39 @@ The official $LUCR landing page is hosted here:
 
 ## 🔥 What is $LUCR?
 
-Launched by **AcuteBlock LLC**, $LUCR is a meme-born, utility-backed cryptocurrency launched without any presale, private allocation, or equity model.
+Created by **AcuteBlock LLC**, $LUCR is a luxury-themed cryptocurrency built on Solana with no presale, no private allocation, and no equity model.  
 
 - ✅ **100% Fair Launch — no insider supply**
-- 🌐 **Multichain:** Live on Solana (Pump.fun) & Tron (SunPump.meme)
-- 🧾 **Fixed Supply:** 2,000,000,000 LUCR
+- 🌐 **Solana Native:** LUCR–SOL trading live on Raydium
+- 🧾 **Fixed Supply:** 10,500,000 LUCR
 - 💬 **Community-driven growth through organic engagement**
-- ⚙️ **Solana Staking now live via Smithii.io**
-- 🛠️ **Whitepaper V2, UI v2.1.0 update, and continued R&D underway**
+- 🛠️ **Website v3.0 refresh with updated assets and layout**
 
 ---
 
-## 🆕 What's New in v2.1.0
+## 🆕 What’s New in v3.0
 
-- 🎯 **Added LUCR Staking & Staking Navigation Button** (Smithii.io integration)
-- 💎 **New GitHub navigation & community link + GitHub logo**
-- 🎨 **Refreshed layout and color animations**
-- 🧪 **UI fixes for tokenomics chart label display**
-- ✅ **Fully responsive layout confirmed across devices**
+- 🎯 **Removed Staking navigation and button block**  
+- 💎 **Removed Tron integrations (SunPump, Tronscan, Tron copy button)**  
+- 🖼️ **Removed roadmap image block; Tokenomics remain unchanged**  
+- 📱 **Hero layout refined — centered with image positioned beneath text**  
+- 🎨 **Refreshed official LUCR logo and main coin animation**  
+- ⚖️ **Updated footer legal information + added Solana Name Service logo**  
+- 🔗 **Community links trimmed (Telegram, X/Twitter, GitHub only)**  
+- 🧭 **Meta title updated to “Solana’s First Luxury Coin.”**
 
 ---
 
 ## 📄 Key Links
 
-- **Whitepaper V2:**  
-  [https://lucrativetoken.io/LUCR-Whitepaper.pdf](https://lucrativetoken.io/LUCR-Whitepaper.pdf)
+- **Whitepaper v3.0 (in progress):**  
+  *Anticipated release: coming soon*
 
-- **Solana (Pump.fun):**  
-  [https://pump.fun/coin/5zYnyz8CMKHL6Rd9ftMCS98cL9WBx7UP8UnHK7fypump](https://pump.fun/coin/5zYnyz8CMKHL6Rd9ftMCS98cL9WBx7UP8UnHK7fypump)
+- **Raydium LUCR–SOL Pool:**  
+  [https://raydium.io/swap/?inputMint=sol&outputMint=GX4hyCJkkUEMjyDm8ynsBTguB44rKfLDWEoNDnXWTfAT](https://raydium.io/swap/?inputMint=sol&outputMint=GX4hyCJkkUEMjyDm8ynsBTguB44rKfLDWEoNDnXWTfAT)
 
-- **Tron (SunPump.meme):**  
-  [https://sunpump.meme/token/TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA](https://sunpump.meme/token/TCBzCvtdF8cPFbkBHfoAFRrfHUunUGJAoA)
-
-- **Solana Staking Portal (Smithii.io):**  
-  [https://stake.smithii.io/lucr](https://stake.smithii.io/lucr)
+- **Solscan (Token):**  
+  [https://solscan.io/token/GX4hyCJkkUEMjyDm8ynsBTguB44rKfLDWEoNDnXWTfAT](https://solscan.io/token/GX4hyCJkkUEMjyDm8ynsBTguB44rKfLDWEoNDnXWTfAT)
 
 - **GitHub Repo:**  
   [https://github.com/AcuteBlock/lucrative](https://github.com/AcuteBlock/lucrative)
@@ -60,23 +62,14 @@ This repo contains all core website assets:
 - `style.css` – Custom styling for the landing page
 - `script.js` – JavaScript for interactive elements
 - `README.md` – Project overview and documentation
-- `roadmap.jpg` – Current roadmap image
-- `Images/` – Folder for logos and visuals
-
----
-
-## 🧭 Roadmap
-
-![Lucrative Roadmap](./roadmap.jpg)
+- `Images/` – Folder for refreshed logos, animations, and visuals
 
 ---
 
 ## 🤝 Join the Community
 
-- **Telegram:** [https://t.me/+rg0a86wCEjgzZjQx](https://t.me/+rg0a86wCEjgzZjQx)
-- **X / Twitter:** [https://x.com/AcuteBlockLLC](https://x.com/AcuteBlockLLC)
-- **Instagram:** [https://www.instagram.com/acuteblock](https://www.instagram.com/acuteblock)
-- **YouTube:** [https://www.youtube.com/@AcuteBlock](https://www.youtube.com/@AcuteBlock)
+- **Telegram:** [https://t.me/+rg0a86wCEjgzZjQx](https://t.me/+rg0a86wCEjgzZjQx)  
+- **X / Twitter:** [https://x.com/LUCR_Lucrative](https://x.com/LUCR_Lucrative)  
 - **GitHub:** [https://github.com/AcuteBlock/lucrative](https://github.com/AcuteBlock/lucrative)
 
 ---

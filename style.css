@@ -1122,3 +1122,83 @@ label{
         max-width: 100%;
     }
 }
+
+
+/* === LUCR v3 Roadmap Text De-Box + Widen === */
+.roadmap-text {
+  border: none !important;
+  border-radius: 0 !important;
+  max-width: 1100px !important;
+  padding: 24px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+
+/* === LUCR v3 Hero Layout Override (image below text, centered, spacious) === */
+.hero {
+  flex-direction: column !important;
+  gap: 80px !important; /* plenty of space between text and image */
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.hero-text {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.hero-img {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.hero-img img {
+  width: 70% !important;
+  height: auto !important;
+}
+
+/* Remove mobile-only right shift and enforce centering */
+@media (max-width: 768px) {
+  .hero-img { margin-right: 0 !important; }
+}
+
+
+/* Roadmap pseudo-bullets (standard 1.5em gutter) */
+.roadmap-text p {
+  text-align: left;
+  padding-left: 1.5em;
+  text-indent: 0;
+  margin: 0 0 12px;
+}
+
+/* Ensure explicit support for the fourth paragraph class */
+.roadmap-text .fourth-paragraph { text-align: left; padding-left: 1.5em; text-indent: 0; margin: 0 0 12px; }
+
+
+/* === Final Roadmap Alignment Overrides === */
+.roadmap { width: 100%; padding: 40px 0; }
+
+/* Center title and all roadmap content horizontally */
+.roadmap-text { text-align: center !important; }
+.roadmap-text h2 { margin-bottom: 2rem; }
+
+/* Headings centered with page */
+.roadmap-item { margin: 28px 0; }
+.roadmap-item h3 { text-align: center !important; margin: 2rem 0 1rem; }
+
+/* Body lines: centered block, left-aligned text, bullet-like gutter */
+.roadmap-item p {
+  display: inline-block;
+  text-align: left;
+  padding-left: 1.5em;
+  line-height: 1.6;
+  margin: 0 auto 10px;
+  width: auto;
+  max-width: 100%;
+}
